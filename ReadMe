@@ -1,0 +1,12 @@
+This Python script performs Gaussian elimination, also referred to as row reduction.
+The procedure is an essential component of Linear Algebra, and is useful for solving
+linear systems of equations, matrix manipulation, and data analysis.
+
+The function rowReducer takes a matrix argument. This matrix is an m x n 2D numpy array, where m
+refers to the number of columns and n to the number of rows. m and n can have any integer values.
+rowReducer then performs Gaussian row reduction to isolate pivot points. After this process is
+completed, the matrix is only partly reduced. Then, rowReducer reduces the pivot points to 1, and
+changes the other row values accordingly. After this entire process is complete, rowReducer returns
+the input matrix in row echelon form.
+
+Enjoy!
