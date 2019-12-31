@@ -1,7 +1,7 @@
 import numpy as np
 
 def rowReducer(matrix):
-    #determine matrix shape to find number of pivots
+    #determine matrix shape to find max number of pivots
     dim = matrix.shape
     num_rows = dim[0]
     num_cols = dim[1]
